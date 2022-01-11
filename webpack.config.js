@@ -7,6 +7,10 @@ const { template } = require('lodash');
      index: './src/index.js',
      print: './src/print.js',
    },
+   devtool: 'inline-source-map',
+   devServer: {
+     static: './dist',
+   },
    plugins: [
     new HtmlWebpackPlugin({
       title: 'Webpack Exercise',
