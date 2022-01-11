@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { template } = require('lodash');
 
  module.exports = {
+   mode: 'none',
    entry: {
      index: './src/index.js',
      print: './src/print.js',

@@ -1,4 +1,11 @@
 body {
-  background-color: #161b22;
-  color: #fff;
+  background: url(favicon.png);
+  background-repeat: no-repeat;
+  color: rgb(26, 13, 13);
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+  display: block;
+  text-align: center;
 }
+
