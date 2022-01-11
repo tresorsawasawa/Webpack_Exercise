@@ -14,8 +14,7 @@ const { template } = require('lodash');
     }),
   ],
    output: {
-     filename: '[name].bundle.js',
-     path: path.resolve(__dirname, 'dist'),
-     clean: true,
+     filename: 'bundle.js',
+     path: path.resolve(__dirname, 'dist')
    },
  };
